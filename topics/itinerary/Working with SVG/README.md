@@ -53,13 +53,41 @@ that may be included for certain features.
 Along with your request, you can include the following query parameters to
 change the SVG export.
 
-| Query Parameter   | Description                                                            |
-| ----------------- | ---------------------------------------------------------------------- |
-| bbox              | Alternative bounding box, in 4 numeric values; "west,south,east,north" |
-| pointAsCircle     | Render points as an circle opposed to a path; "true" or "false"        |
-| markerLabelAsText | Render text elements for markers with label values; "true" or "false"  |
-| radius            | Radius for the point; "1", "2"...                                      |
-| width, height     | Viewport Canvas controls                                               |
+| Query Parameter      | Description                                                            |
+| -------------------- | ---------------------------------------------------------------------- |
+| bbox                 | Alternative bounding box, in 4 numeric values; "west,south,east,north" |
+| pointAsCircle        | Render points as an circle opposed to a path; "true" or "false"        |
+| markerLabelAsText    | Render text elements for markers with label values; "true" or "false"  |
+| radius               | Radius for the point; "1", "2"...                                      |
+| width, height        | Viewport Canvas controls                                               |
+| lineStringProcessing | Line simplification and Bezier Spline operations to generalise detail  |
+
+### LineString Processing
+
+To recreate a "generalised" route outline for geometry and smooth out line
+detail, the SVG can be customised using two operations:
+
+- Simplify
+- Bezier Spline
+
+These operations can be used at the same time to both simplify the line then
+smooth out the detail using bezier splines.
+
+Simplify is achieved using Douglas-Peucker algorithm, and can have a customised
+tolerance (default is `0.85`). You can splify a simplify operation via
+`lineStringProcessing=simplify`, or by passing the tolerance via
+`lineStringProcessing=simplify_0.01`.
+
+Bezier Spline is achieved by `lineStringProcessing=bezierSpline` and can also
+be customised via the resolution (default `10000`) controlling the time in
+milliseconds between points and sharpness (default `0.85`) controlling how curvy
+the path should be between splines. You can control the resolution and sharpness
+through appending them to the string;
+`lineStringProcessing=bezierSpline_8000_0.6`.
+
+You can additionally support multiple stages of processing by seperating each
+processing operation by a `,`, such as
+`lineStringProcessing=simplify,bezierSpline`.
 
 ### Administrative Boundaries
 

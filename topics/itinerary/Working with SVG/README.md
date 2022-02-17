@@ -53,12 +53,13 @@ that may be included for certain features.
 Along with your request, you can include the following query parameters to
 change the SVG export.
 
-| Query Parameter | Description                                                            |
-| --------------- | ---------------------------------------------------------------------- |
-| bbox            | Alternative bounding box, in 4 numeric values; "west,south,east,north" |
-| pointAsCircle   | Render points as an circle opposed to a path                           |
-| radius          | Radius for the point                                                   |
-| width, height   | Viewport Canvas controls                                               |
+| Query Parameter   | Description                                                            |
+| ----------------- | ---------------------------------------------------------------------- |
+| bbox              | Alternative bounding box, in 4 numeric values; "west,south,east,north" |
+| pointAsCircle     | Render points as an circle opposed to a path; "true" or "false"        |
+| markerLabelAsText | Render text elements for markers with label values; "true" or "false"  |
+| radius            | Radius for the point; "1", "2"...                                      |
+| width, height     | Viewport Canvas controls                                               |
 
 ### Administrative Boundaries
 

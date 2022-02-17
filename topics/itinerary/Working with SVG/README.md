@@ -3,6 +3,8 @@
 > Scalable Vector Graphics can be used in mapping to provide vector
 > representations of itineraries without requiring an interactive mapping SDK
 
+<img src="./svg-basic-styled.png" alt="Basic SVG Example" />
+
 Alpaca provides resources for developers and designers to design a SVG
 representation of an itinerary.
 
@@ -117,7 +119,3 @@ features.
 ```
 https://mapping.withalpaca.com/v1/itinerary/XXX.svg?accessToken=pk.123&merge=place/naturalearth:ISO-3166-1:AU&bbox=109,-45,110,-9
 ```
-
-**Basic Styled SVG Example**
-
-<img src="./svg-basic-styled.png" alt="Basic SVG Example" />

@@ -254,7 +254,6 @@ The Alpaca Itinerary v1 contains the following layers in the tileset.
 | --------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------ |
 | **location**<br>Contains plotted locations encompassing places within the itineraries                                 | 0                  | `location_marker`, `location_directions_preference`                                                                |
 | **directions**<br>Contains itinerary directions geometry to help represent the suggested directions between locations | 0                  | `directions_distance_progress`, `directions_path`, `directions_path_waypoint`, `directions_path_distance_progress` |
-| **route_segments**<br>Contains individual route segments, by a supplied travel mode                                   | 0                  | ``                                                                                                                 |
 
 ## Features
 

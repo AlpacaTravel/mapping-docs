@@ -1,11 +1,11 @@
 ---
-name: Alpaca Itinerary v1 GeoJSON/Tiles Reference
+name: Alpaca Itinerary GeoJSON/Tiles Reference (v1)
 generated: Thu Feb 17 2022
 ---
 
 ## Overview
 
-**Alpaca Itinerary v1** Tileset and GeoJSON formats include geometries for plotted itineraries for locations, directions and route segments. These provide access for you to create your representation of the itinerary within your mapping platform or application.
+**Alpaca Itinerary** Tileset and GeoJSON formats include geometries for plotted itineraries for locations, directions and route segments. These provide access for you to create your representation of the itinerary within your mapping platform or application.
 
 ### Attribution
 

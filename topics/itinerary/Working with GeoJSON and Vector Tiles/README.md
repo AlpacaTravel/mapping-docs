@@ -59,7 +59,7 @@ the suggested movements of the user across a map. These features include;
 When working with GeoJSON, you are able to target specific feature types of the
 itinerary and then use feature data to present and style that data.
 
-[Itinerary GeoJSON and Vector Tiles Reference](/reference/itinerary-v1/GeoJSON%20and%20Vector%20Tiles/README.md)
+[Itinerary GeoJSON and Vector Tiles Reference](/reference/itinerary/GeoJSON%20and%20Vector%20Tiles/README.md)
 
 ### Feature Types
 

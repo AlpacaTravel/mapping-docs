@@ -32,7 +32,7 @@ including trails, trips and lists.
 - **[Working with GeoJSON and Vector Tiles](/topics/itinerary/Working%20with%20GeoJSON%20and%20Vector%20Tiles/README.md)**
   An overview to getting started with GeoJSON and Vector Tiles when working with
   itineraries.
-- **[Itinerary GeoJSON and Vector Tiles Reference](/reference/itinerary-v1/GeoJSON%20and%20Vector%20Tiles/README.md)**
+- **[Itinerary GeoJSON and Vector Tiles Reference](/reference/itinerary/GeoJSON%20and%20Vector%20Tiles/README.md)**
   A comprehensive reference for the data available within GeoJSON and Vector
   Tile representations of Itinerary
 - **[Mapbox](/topics/itinerary/Working%20with%20Mapbox/README.md)**

@@ -1,9 +1,10 @@
 <div align="center">
-  <img alt="Mapping Data" src="./map.png" />
-  <img alt="Developer Documentation" src="https://developer.alpacamaps.com/_media/logo.svg" height="75" width="75" style="padding: 20px" />
+  <img alt="Developer Documentation" src="https://developer.alpacamaps.com/_media/logo.svg" height="75" width="75" />
 </div>
 
 # Alpaca Travel Mapping Documentation
+
+<img alt="Mapping Data" src="./map.png" width="803" height="598" />
 
 > [Alpaca Travel](https://alpaca.travel) offers mapping services for developers
 > to build their own interactive travel maps.

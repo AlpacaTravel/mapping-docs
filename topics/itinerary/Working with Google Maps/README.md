@@ -41,9 +41,9 @@ call on a map instance.
 
 ```javascript
 map.data.loadGeoJson(
-  "[${url}](https://mapping.withalpaca.com/itinerary/XXX.geojson?accessToken=pk.123)"
+  "https://mapping.withalpaca.com/itinerary/XXX.geojson?accessToken=pk.123"
 );
 ```
 
-Note: You will need to update the above `data` URL with the correct itinerary
+Note: You will need to update the above URL with the correct itinerary
 id and accessToken.

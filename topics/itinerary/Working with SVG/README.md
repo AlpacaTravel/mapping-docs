@@ -87,7 +87,7 @@ This can assist designers position the itinerary against other geographic
 features.
 
 ```
-[https](https://mapping.withalpaca.com/v1/itinerary/XXX.svg?accessToken=pk.123&merge=place/naturalearth:ISO-3166-1/AU&bbox=109,-45,110,-9)
+https://mapping.withalpaca.com/v1/itinerary/XXX.svg?accessToken=pk.123&merge=place/naturalearth:ISO-3166-1/AU&bbox=109,-45,110,-9
 ```
 
 **Basic Styled SVG Example**

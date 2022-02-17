@@ -41,7 +41,7 @@ call on a map instance.
 
 ```javascript
 map.data.loadGeoJson(
-  "https://mapping.withalpaca.com/itinerary/XXX.geojson?accessToken=pk.123"
+  "https://mapping.withalpaca.com/v1/itinerary/XXX.geojson?accessToken=pk.123"
 );
 ```
 

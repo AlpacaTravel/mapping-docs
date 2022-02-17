@@ -1,5 +1,6 @@
 <div align="center">
   <img alt="Developer Documentation" src="https://developer.alpacamaps.com/_media/logo.svg" height="75" width="75" />
+  <img alt="Mapping Data" src="./map.png" />
 </div>
 
 # Alpaca Travel Mapping Documentation

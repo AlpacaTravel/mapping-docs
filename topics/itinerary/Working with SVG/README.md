@@ -1,9 +1,9 @@
 # Working with SVG
 
+<img src="./svg-basic-styled.png" alt="Basic SVG Example" />
+
 > Scalable Vector Graphics can be used in mapping to provide vector
 > representations of itineraries without requiring an interactive mapping SDK
-
-<img src="./svg-basic-styled.png" alt="Basic SVG Example" />
 
 Alpaca provides resources for developers and designers to design a SVG
 representation of an itinerary.
@@ -99,13 +99,26 @@ Alpaca also provide simple boundary resources.
 https://mapping.withalpaca.com/v1/place/XXX.svg?accessToken=pk.123
 ```
 
-Substitute the place/XXX with values as obtained from the following table
+Substitute the place/XXX with values as obtained from the following table:
 
-| Resource                             | Description                                                                                 |
-| ------------------------------------ | ------------------------------------------------------------------------------------------- |
-| place/naturalearth:ISO-3166-1:XX     | 50m Admin 0 feature, substitute the XX with the ISO-3166 2 letter country code (such as AU) |
-| place/naturalearth:ISO-3166-2:XX-YYY | 50m Admin 1 feature, substitute the XX-YYY with the ISO-3166-2 code (such as AU-VIC)        |
-| place/naturalearth:admin:0           | All countries                                                                               |
+| Resource                             | Description                                                                                                                                                                                                                                   |
+| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| place/naturalearth:iso-3166-1:xx     | 50m Admin 0 feature, substitute the XX with the ISO-3166 2 letter country code (such as au)                                                                                                                                                   |
+| place/naturalearth:iso-3166-2:xx-yyy | 50m Admin 1 feature, substitute the XX-YYY with the ISO-3166-2 code (such as au-vic)                                                                                                                                                          |
+| place/abs:2021-tourism:xxxxx         | Australian tourism regions, where xxxxx is the TR_CODE21 (See ABS)[https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files]          |
+| place/abs:2021-lga:xxxxx             | Australian postal regions, where xxxxx is the LGA_CODE21 (See ABS)[https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files]          |
+| place/abs:2021-suburb:xxxxx          | Australian suburbs, where xxxxx is the SAL_CODE21 (See ABS)[https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files]                 |
+| place/abs:2021-electoral:xxxxx       | Australian state electoral regions, where xxxxx is the SED_CODE21 (See ABS)[https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files] |
+| place/abs:2021-postal:xxxxx          | Australian state electoral regions, where xxxxx is the POA_CODE21 (See ABS)[https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files] |
+
+You can also use an interactive map to identify the ID to include:
+
+- [Natural Earth Cultural (countries, regions and timezones)](https://mapping.withalpaca.com/set/naturalearth_cultral)
+- [ABS 2021 Tourism Regions](https://mapping.withalpaca.com/set/abs_2021_tourism)
+- [ABS Postal Boundaries](https://mapping.withalpaca.com/set/abs_2021_postal)
+- [ABS LGAs Boundaries](https://mapping.withalpaca.com/set/abs_2021_lga)
+- [ABS Electoral Boundaries](https://mapping.withalpaca.com/set/abs_2021_electoral)
+- [ABS Suburb Boundaries](https://mapping.withalpaca.com/set/abs_2021_suburb)
 
 ### Merging SVG
 
@@ -117,5 +130,5 @@ This can assist designers position the itinerary against other geographic
 features.
 
 ```
-https://mapping.withalpaca.com/v1/itinerary/XXX.svg?accessToken=pk.123&merge=place/naturalearth:ISO-3166-1:AU&bbox=109,-45,110,-9
+https://mapping.withalpaca.com/v1/itinerary/XXX.svg?accessToken=pk.123&merge=place/naturalearth:iso-3166-1:au&bbox=109,-45,110,-9
 ```

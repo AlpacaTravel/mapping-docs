@@ -40,7 +40,8 @@ including trails, trips and lists.
 - **[Google Maps Platform](/topics/itinerary/Working%20with%20Google%20Maps/README.md)**
   Integrating with Google Maps Platform
 - **[Working with SVG](/topics/itinerary/Working%20with%20SVG/README.md)**
-  Working with SVG exports of itineraries
+  Working with SVG exports of itineraries such as stylising curved and
+  generalised representations of itineraries.
 
 ## API Key
 

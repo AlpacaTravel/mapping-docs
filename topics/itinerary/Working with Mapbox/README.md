@@ -133,12 +133,13 @@ https://mapping.withalpaca.travel/v1/itinerary/XXX.json?accessToken=pk.123
 You will need to update the itinerary/XXX with your itinerary ID and your
 access Token.
 
-```javascript:
-mapboxgl.accessToken = '<your mapbox access token here>';
+```javascript
+mapboxgl.accessToken = "<your mapbox access token here>";
 const map = new mapboxgl.Map({
-    container: 'map', // container ID
-    // update the below with your alpaca itinerary id and alpaca access token
-    style: 'https://mapping.withalpaca.travel/v1/itinerary/XXX.json?accessToken=pk.123',
+  container: "map", // container ID
+  // update the below with your alpaca itinerary id and alpaca access token
+  style:
+    "https://mapping.withalpaca.travel/v1/itinerary/XXX.json?accessToken=pk.123",
 });
 ```
 

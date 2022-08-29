@@ -116,4 +116,4 @@ on their logical type, such as `locations` or `directions`.
 Alpaca provides an interactive preview of the mapping data to help identify the
 data for your itinerary.
 
-[Preview your data](https://mapping.withalpaca.com/)
+[Preview your data](https://mapping.withalpaca.travel/)

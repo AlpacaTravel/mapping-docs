@@ -30,7 +30,7 @@ must provide your `accessToken`.
 SVG's are generated from the following base URL:
 
 ```
-https://mapping.withalpaca.com/v1/itinerary/XXX.svg?accessToken=pk.123
+https://mapping.withalpaca.travel/v1/itinerary/XXX.svg?accessToken=pk.123
 ```
 
 Substitute your itinerary/XXX with your itinerary ID and the accessToken with
@@ -96,7 +96,7 @@ processing operation by a `,`, such as
 Alpaca also provide simple boundary resources.
 
 ```
-https://mapping.withalpaca.com/v1/place/XXX.svg?accessToken=pk.123
+https://mapping.withalpaca.travel/v1/place/XXX.svg?accessToken=pk.123
 ```
 
 Substitute the place/XXX with values as obtained from the following table:
@@ -114,11 +114,11 @@ Substitute the place/XXX with values as obtained from the following table:
 You can also use an interactive map to identify the ID to include:
 
 - [Natural Earth Cultural (countries, regions and timezones)](https://mapping.withalpaca.com/set/naturalearth_cultral)
-- [ABS 2021 Tourism Regions](https://mapping.withalpaca.com/set/abs_2021_tourism)
-- [ABS Postal Boundaries](https://mapping.withalpaca.com/set/abs_2021_postal)
-- [ABS LGAs Boundaries](https://mapping.withalpaca.com/set/abs_2021_lga)
-- [ABS Electoral Boundaries](https://mapping.withalpaca.com/set/abs_2021_electoral)
-- [ABS Suburb Boundaries](https://mapping.withalpaca.com/set/abs_2021_suburb)
+- [ABS 2021 Tourism Regions](https://mapping.withalpaca.travel/set/abs_2021_tourism)
+- [ABS Postal Boundaries](https://mapping.withalpaca.travel/set/abs_2021_postal)
+- [ABS LGAs Boundaries](https://mapping.withalpaca.travel/set/abs_2021_lga)
+- [ABS Electoral Boundaries](https://mapping.withalpaca.travel/set/abs_2021_electoral)
+- [ABS Suburb Boundaries](https://mapping.withalpaca.travel/set/abs_2021_suburb)
 
 ### Merging SVG
 
@@ -130,5 +130,5 @@ This can assist designers position the itinerary against other geographic
 features.
 
 ```
-https://mapping.withalpaca.com/v1/itinerary/XXX.svg?accessToken=pk.123&merge=place/naturalearth:iso-3166-1:au&bbox=109,-45,110,-9
+https://mapping.withalpaca.travel/v1/itinerary/XXX.svg?accessToken=pk.123&merge=place/naturalearth:iso-3166-1:au&bbox=109,-45,110,-9
 ```

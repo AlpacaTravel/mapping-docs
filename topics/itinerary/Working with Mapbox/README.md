@@ -43,7 +43,7 @@ map.addSource("itinerary", {
   type: "geojson",
   // Provide the URL to the hosted geojson
   // Note: Update with your Itinerary ID and accessToken
-  data: "https://mapping.withalpaca.com/v1/itinerary/XXX.geojson?accessToken=pk.123",
+  data: "https://mapping.withalpaca.travel/v1/itinerary/XXX.geojson?accessToken=pk.123",
 });
 ```
 
@@ -57,7 +57,7 @@ directly as a source.
 ```json
 "itinerary": {
   "type": "geojson",
-  "data": "https://mapping.withalpaca.com/v1/itinerary/XXX?accessToken=pk.123"
+  "data": "https://mapping.withalpaca.travel/v1/itinerary/XXX?accessToken=pk.123"
 }
 ```
 
@@ -80,7 +80,7 @@ map.addSource("itinerary", {
   type: "vector",
   // Provide the URL to the hosted tilejson
   // Note: Update with your Itinerary ID and accessToken
-  url: "https://mapping.withalpaca.com/v1/itinerary/XXX.tilejson?scheme=xyz&accessToken=pk.123",
+  url: "https://mapping.withalpaca.travel/v1/itinerary/XXX.tilejson?scheme=xyz&accessToken=pk.123",
   // Important to include the scheme of 'xyz'
   scheme: "xyz",
 });
@@ -96,7 +96,7 @@ directly as a source.
 ```json
 "itinerary": {
   "type": "vector",
-  "data": "https://mapping.withalpaca.com/v1/itinerary/XXX.tilejson?scheme=xyz&accessToken=pk.123",
+  "data": "https://mapping.withalpaca.travel/v1/itinerary/XXX.tilejson?scheme=xyz&accessToken=pk.123",
   "scheme": "xyz"
 }
 ```

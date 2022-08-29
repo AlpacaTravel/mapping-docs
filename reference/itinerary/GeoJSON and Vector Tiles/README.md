@@ -312,9 +312,8 @@ The Alpaca Itinerary v1 contains the following layers in the tileset.
 
 | Layer | Minimum zoom level | Feature Classes | 
 |-------|--------------------|---|
-| **location**<br>Contains plotted locations encompassing places within the itineraries | 0 | ``
-| **directions**<br>Contains itinerary directions geometry to help represent the suggested directions between locations | 0 | ``
-| **metadata**<br>Contains miscellaneous features to assist presentation of features (often stripped) | 0 | `camera`
+| **default**<br>Default layer containing itinerary features | 0 | `location_marker`, `location_directions_preference`, `directions_distance_progress`, `directions_path`, `directions_path_waypoint`, `directions_path_distance_progress`
+| **metadata**<br>Contains miscellaneous features to assist presentation of features (stripped from vector tiles) | 0 | `camera`
 
 
 ## Features

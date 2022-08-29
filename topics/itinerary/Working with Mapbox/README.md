@@ -138,7 +138,7 @@ mapboxgl.accessToken = '<your mapbox access token here>';
 const map = new mapboxgl.Map({
     container: 'map', // container ID
     // update the below with your alpaca itinerary id and alpaca access token
-    style: '[mapbox://styles/mapbox/streets-v11](https://mapping.withalpaca.travel/v1/itinerary/XXX.json?accessToken=pk.123)',
+    style: 'https://mapping.withalpaca.travel/v1/itinerary/XXX.json?accessToken=pk.123',
 });
 ```
 

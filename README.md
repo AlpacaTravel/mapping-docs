@@ -21,7 +21,7 @@ Alpaca provides an interactive client that you can access for resources hosted
 on the platform. This can be used to interact with features and identify what
 mapping data is available.
 
-- **[Mapping Service](https://mapping.withalpaca.com/)**
+- **[Mapping Service](https://mapping.withalpaca.travel/)**
   Interact with mapping resources (Requires API Key)
 
 ## Itinerary

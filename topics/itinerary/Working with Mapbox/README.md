@@ -120,6 +120,28 @@ Once you become familiar with the concepts of styling, you will want to refer
 to **[Working with GeoJSON and Vector Tiles](/topics/itinerary/Working%20with%20GeoJSON%20and%20Vector%20Tiles/README.md)**
 to understand what data is available to select and style.
 
+## Default Alpaca Style
+
+Alpaca also offers a default style that can be used to style mapbox out of the
+box. You can use the default style to quickly leverage the Mapbox API on top
+of an Alpaca map style and data.
+
+```
+https://mapping.withalpaca.travel/v1/itinerary/XXX.json?accessToken=pk.123
+```
+
+You will need to update the itinerary/XXX with your itinerary ID and your
+access Token.
+
+```javascript:
+mapboxgl.accessToken = '<your mapbox access token here>';
+const map = new mapboxgl.Map({
+    container: 'map', // container ID
+    // update the below with your alpaca itinerary id and alpaca access token
+    style: '[mapbox://styles/mapbox/streets-v11](https://mapping.withalpaca.travel/v1/itinerary/XXX.json?accessToken=pk.123)',
+});
+```
+
 ## Recommended examples for using Mapbox
 
 Mapbox provides a number of examples that can assist developers working to

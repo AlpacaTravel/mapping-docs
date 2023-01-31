@@ -57,7 +57,7 @@ directly as a source.
 ```json
 "itinerary": {
   "type": "geojson",
-  "data": "https://mapping.withalpaca.travel/v1/itinerary/XXX?accessToken=pk.123"
+  "data": "https://mapping.withalpaca.travel/v1/itinerary/XXX.geojson?accessToken=pk.123"
 }
 ```
 

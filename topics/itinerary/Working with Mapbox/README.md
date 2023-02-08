@@ -43,7 +43,7 @@ map.addSource("itinerary", {
   type: "geojson",
   // Provide the URL to the hosted geojson
   // Note: Update with your Itinerary ID and accessToken
-  data: "https://mapping.withalpaca.travel/v1/itinerary/XXX.geojson?accessToken=pk.123",
+  data: "https://mapping.withalpaca.travel/v1/itinerary/XXX.geojson?accessTokenYOUR_ACCESS_TOKEN",
 });
 ```
 
@@ -57,7 +57,7 @@ directly as a source.
 ```json
 "itinerary": {
   "type": "geojson",
-  "data": "https://mapping.withalpaca.travel/v1/itinerary/XXX?accessToken=pk.123"
+  "data": "https://mapping.withalpaca.travel/v1/itinerary/XXX?accessToken=YOUR_ACCESS_TOKEN"
 }
 ```
 
@@ -80,7 +80,7 @@ map.addSource("itinerary", {
   type: "vector",
   // Provide the URL to the hosted tilejson
   // Note: Update with your Itinerary ID and accessToken
-  url: "https://mapping.withalpaca.travel/v1/itinerary/XXX.tilejson?scheme=xyz&accessToken=pk.123",
+  url: "https://mapping.withalpaca.travel/v1/itinerary/XXX.tilejson?scheme=xyz&accessToken=YOUR_ACCESS_TOKEN",
   // Important to include the scheme of 'xyz'
   scheme: "xyz",
 });
@@ -96,7 +96,7 @@ directly as a source.
 ```json
 "itinerary": {
   "type": "vector",
-  "data": "https://mapping.withalpaca.travel/v1/itinerary/XXX.tilejson?scheme=xyz&accessToken=pk.123",
+  "data": "https://mapping.withalpaca.travel/v1/itinerary/XXX.tilejson?scheme=xyz&accessToken=YOUR_ACCESS_TOKEN",
   "scheme": "xyz"
 }
 ```
@@ -127,7 +127,7 @@ box. You can use the default style to quickly leverage the Mapbox API on top
 of an Alpaca map style and data.
 
 ```
-https://mapping.withalpaca.travel/v1/itinerary/XXX.json?accessToken=pk.123
+https://mapping.withalpaca.travel/v1/itinerary/XXX.json?accessToken=YOUR_ACCESS_TOKEN
 ```
 
 You will need to update the itinerary/XXX with your itinerary ID and your
@@ -139,7 +139,7 @@ const map = new mapboxgl.Map({
   container: "map", // container ID
   // update the below with your alpaca itinerary id and alpaca access token
   style:
-    "https://mapping.withalpaca.travel/v1/itinerary/XXX.json?accessToken=pk.123",
+    "https://mapping.withalpaca.travel/v1/itinerary/XXX.json?accessToken=YOUR_ACCESS_TOKEN",
 });
 ```
 

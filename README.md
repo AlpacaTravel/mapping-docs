@@ -43,6 +43,14 @@ including trails, trips and lists.
   Working with SVG exports of itineraries such as stylising curved and
   generalised representations of itineraries.
 
+## Other Topics
+
+- **[Australian Tourism Data Warehouse](/sets/Australian%20Tourism%20Data%20Warehouse/)**
+  Accessing and presenting map that draw from the ATDW database with frequently
+  refreshed data
+- **[Australian Tourism Regions](/sets/Australian%20Tourism%20Regions/)**
+  Accessing and presenting map that draw tourism regions from the ABS
+
 ## API Key
 
 You will need to obtain your API Key in order to authenticate your application

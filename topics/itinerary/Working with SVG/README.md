@@ -30,7 +30,7 @@ must provide your `accessToken`.
 SVG's are generated from the following base URL:
 
 ```
-https://mapping.withalpaca.travel/v1/itinerary/XXX.svg?accessToken=pk.123
+https://mapping.withalpaca.travel/v1/itinerary/XXX.svg?accessToken=YOUR_ACCESS_TOKEN
 ```
 
 Substitute your itinerary/XXX with your itinerary ID and the accessToken with
@@ -96,7 +96,7 @@ processing operation by a `,`, such as
 Alpaca also provide simple boundary resources.
 
 ```
-https://mapping.withalpaca.travel/v1/place/XXX.svg?accessToken=pk.123
+https://mapping.withalpaca.travel/v1/place/XXX.svg?accessToken=YOUR_ACCESS_TOKEN
 ```
 
 Substitute the place/XXX with values as obtained from the following table:
@@ -130,5 +130,5 @@ This can assist designers position the itinerary against other geographic
 features.
 
 ```
-https://mapping.withalpaca.travel/v1/itinerary/XXX.svg?accessToken=pk.123&merge=place/naturalearth:iso-3166-1:au&bbox=109,-45,110,-9
+https://mapping.withalpaca.travel/v1/itinerary/XXX.svg?accessToken=YOUR_ACCESS_TOKEN&merge=place/naturalearth:iso-3166-1:au&bbox=109,-45,110,-9
 ```

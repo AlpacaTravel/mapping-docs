@@ -68,6 +68,6 @@ _Displaying Regions of New South Wales_
     "fill-color": "#0080ff",
     "fill-opacity": 0.5
   },
-  "filter": ["==", "STE_NAME21", "New South Wales"]]
+  "filter": ["==", "STE_NAME21", "New South Wales"]
 }
 ```

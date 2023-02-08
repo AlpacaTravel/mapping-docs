@@ -9,6 +9,9 @@ of all the ATDW products available in their region.
 
 <img alt="ATDW Mapping Data" src="./melbourne.png" width="805" height="599" />
 
+Before you get started, you must add your ATDW API Key to the platform by
+logging in to your account and adding the ATDW integration.
+
 ## Interactive Explorer
 
 Alpaca offers an interactive explorer to review what data is visible within the
@@ -124,11 +127,18 @@ query {
     preferredMedia {
       resource {
         ... on MediaImage {
-          thumbnail: source(bestFit: [200, 200])
+          thumbnail: source(bestFit: [200, 200]) {
+            url
+          }
           altText
           attribution
         }
       }
+    }
+
+    # Include the tracking pixel for you distributor agreement requirements
+    attribution {
+      pixel
     }
 
     # Select more about the product, see the documentation how to access any

@@ -50,7 +50,7 @@ the following style source definition.
 }
 ```
 
-### Targeting Products
+### Targeting Regions
 
 As an example, you can also add a style layer to your map, which will display
 corresponding ATDW products.

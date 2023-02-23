@@ -5,7 +5,7 @@ allows users to visualize, edit, and analyze geospatial data. If you have
 created an itinerary on the Alpaca Travel platform, you can easily view your
 itinerary data in QGIS by adding a Vector Tile Connection.
 
-<img alt="QGIS Itinerary Data" src="./qgis-vector-tiles-connection.png" width="600" height="334" />
+<img alt="QGIS Itinerary Data" src="./qgis-itinerary.png" width="600" height="334" />
 
 Reference:
 

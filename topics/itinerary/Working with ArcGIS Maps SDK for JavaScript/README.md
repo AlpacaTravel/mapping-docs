@@ -24,7 +24,7 @@ See More:
   itineraries.
 - [Alpaca Travel GeoJSON and Vector Tiles Reference](/reference/itinerary/GeoJSON%20and%20Vector%20Tiles/README.md)
 - [ArcGIS Maps SDK - GeoJSONLayer Example](https://developers.arcgis.com/javascript/latest/sample-code/layers-geojson/)
-- [ArcGIS Maps SDK - GeoJSONLayer API Referebce](https://developers.arcgis.com/javascript/latest/api-reference/esri-layers-GeoJSONLayer.html)
+- [ArcGIS Maps SDK - GeoJSONLayer API Reference](https://developers.arcgis.com/javascript/latest/api-reference/esri-layers-GeoJSONLayer.html)
 
 ## Vector Tile Layer
 

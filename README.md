@@ -38,16 +38,18 @@ including trails, trips and lists.
 
 ### Other Topics
 
-- **[Mapbox](/topics/itinerary/Working%20with%20Mapbox/README.md)**
+- **[Mapbox](/topics/itinerary/Working%20with%20Mapbox/)**
   Building thoroughly customisable maps presenting itineraries using Mapbox
-- **[Google Maps Platform](/topics/itinerary/Working%20with%20Google%20Maps/README.md)**
+- **[Leaflet](/topics/itinerary/Working%20with%20Leaflet/)**
+  Adding itinerary information to Leaflet
+- **[Google Maps Platform](/topics/itinerary/Working%20with%20Google%20Maps/)**
   Integrating with Google Maps Platform
 - **[ARCGis Maps SDK for JavaScript](/topics/itinerary/Working%20with%20ArcGIS%20Maps%20SDK%20for%20JavaScript/)**
   Working with ARCGis Maps SDK for JavaScript to add a GeoJSONLayer to your
   ARCGis Maps application
 - **[QGIS](/topics/itinerary/Working%20with%20QGIS/)**
   Easily view your itinerary data in QGIS by adding a Vector Tile Connection
-- **[Working with SVG](/topics/itinerary/Working%20with%20SVG/README.md)**
+- **[Working with SVG](/topics/itinerary/Working%20with%20SVG/)**
   Working with SVG exports of itineraries such as stylising curved and
   generalised representations of itineraries.
 
@@ -72,3 +74,14 @@ minimum displaying:
 
 - "Made with Alpaca" with a link to https://www.alpaca.travel/
 - "&copy; OpenStreetMap" with a link to https://www.openstreetmap.org/about
+
+## Alpaca Travel API for Content
+
+Outside of the data embedded within your itinerary mapping data sets, you can
+use the `feature.properties.id` for each feature to obtain additional
+information from the Alpaca Travel GraphQL API.
+
+See the the [Alpaca Travel GraphQL API documentation](https://github.com/AlpacaTravel/graphql-docs) for more information on how to request information from the API.
+This can also be done using the browser 'fetch' function or alternatively using
+a hosted SDK that can be included in your browser to make fetching requests
+easier.

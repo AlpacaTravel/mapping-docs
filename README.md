@@ -49,7 +49,7 @@ including trails, trips and lists.
   ARCGis Maps application
 - **[QGIS](/topics/itinerary/Working%20with%20QGIS/)**
   Easily view your itinerary data in QGIS by adding a Vector Tile Connection
-- **[Working with SVG](/topics/itinerary/Working%20with%20SVG/)**
+- **[SVG Data](/topics/itinerary/Working%20with%20SVG/)**
   Working with SVG exports of itineraries such as stylising curved and
   generalised representations of itineraries.
 

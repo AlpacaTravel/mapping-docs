@@ -53,13 +53,24 @@ including trails, trips and lists.
   Working with SVG exports of itineraries such as stylising curved and
   generalised representations of itineraries.
 
-## Other Topics
+## Additional Hosted Datasets
+
+Alpaca Travel also provides additional hosted vector tile datasets that can be
+used to enhance the presentation of your maps, such as displaying markers from
+the Australian Tourism Data Warehouse, displaying Tourism Regions or other ABS
+data, or loading data from the natural world administrative data.
 
 - **[Australian Tourism Data Warehouse](/sets/Australian%20Tourism%20Data%20Warehouse/)**
   Accessing and presenting map that draw from the ATDW database with frequently
   refreshed data
 - **[Australian Tourism Regions](/sets/Australian%20Tourism%20Regions/)**
   Accessing and presenting map that draw tourism regions from the ABS
+- **[Australian Bureau of Statistics](/sets/Australian%20Bureau%20of%20Statistics/)**
+  Accessing and presenting map information from the ABS dataset, including
+  locality/suburbs, postcodes, tourism regions or electoral regions.
+- **[Natural Earth](/sets/Natural%20Earth/)**
+  Present timezones, countries, regions and other administrative information
+  from the natural earth dataset.
 
 ## API Key
 

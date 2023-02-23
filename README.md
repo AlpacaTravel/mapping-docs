@@ -29,6 +29,9 @@ mapping data is available.
 Itineraries refers to the broad category of content published on the platform,
 including trails, trips and lists.
 
+- **[Itinerary Manifest File](/reference/itinerary/Manifest/README.md)**
+  Access key information such as datasource URL's and viewport camera
+  configurations for displaying maps.
 - **[Working with GeoJSON and Vector Tiles](/topics/itinerary/Working%20with%20GeoJSON%20and%20Vector%20Tiles/README.md)**
   An overview to getting started with GeoJSON and Vector Tiles when working with
   itineraries.

@@ -36,7 +36,11 @@ including trails, trips and lists.
   A comprehensive reference for the data available within GeoJSON and Vector
   Tile representations of Itinerary
 
-### Other Topics
+### Presenting and Styling Alpaca Travel Itineraries
+
+The following references can be used to get started with displaying itinerary
+data for various mapping platforms. Alpaca Travel makes itinerary data available
+for use in a wide range of mapping platforms.
 
 - **[Mapbox](/topics/itinerary/Working%20with%20Mapbox/)**
   Building thoroughly customisable maps presenting itineraries using Mapbox

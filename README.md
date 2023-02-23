@@ -35,10 +35,18 @@ including trails, trips and lists.
 - **[Itinerary GeoJSON and Vector Tiles Reference](/reference/itinerary/GeoJSON%20and%20Vector%20Tiles/README.md)**
   A comprehensive reference for the data available within GeoJSON and Vector
   Tile representations of Itinerary
+
+### Other Topics
+
 - **[Mapbox](/topics/itinerary/Working%20with%20Mapbox/README.md)**
   Building thoroughly customisable maps presenting itineraries using Mapbox
 - **[Google Maps Platform](/topics/itinerary/Working%20with%20Google%20Maps/README.md)**
   Integrating with Google Maps Platform
+- **[ARCGis Maps SDK for JavaScript](/topics/itinerary/Working%20with%20ArcGIS%20Maps%20SDK%20for%20JavaScript/)**
+  Working with ARCGis Maps SDK for JavaScript to add a GeoJSONLayer to your
+  ARCGis Maps application
+- **[QGIS](/topics/itinerary/Working%20with%20QGIS/)**
+  Easily view your itinerary data in QGIS by adding a Vector Tile Connection
 - **[Working with SVG](/topics/itinerary/Working%20with%20SVG/README.md)**
   Working with SVG exports of itineraries such as stylising curved and
   generalised representations of itineraries.

@@ -48,6 +48,8 @@ for use in a wide range of mapping platforms.
   Adding itinerary information to Leaflet
 - **[Google Maps Platform](/topics/itinerary/Working%20with%20Google%20Maps/)**
   Integrating with Google Maps Platform
+- **[HERE.com Maps for JavaScript](/topics/itinerary/Working%20with%20HERE%20Maps%20for%20JavaScript/)**
+  Integrating itineraries into the here.com Maps for JavaScript
 - **[ARCGis Maps SDK for JavaScript](/topics/itinerary/Working%20with%20ArcGIS%20Maps%20SDK%20for%20JavaScript/)**
   Working with ARCGis Maps SDK for JavaScript to add a GeoJSONLayer to your
   ARCGis Maps application

@@ -1,6 +1,10 @@
----
-name: Alpaca Itinerary v1 Manifest Reference
----
+[//]: # "Title: Itinerary Manifest Specification"
+[//]: # "Weight: 1"
+[//]:
+  #
+  "Redirect: https://github.com/AlpacaTravel/mapping-docs/blob/master/reference/itinerary/Manifest/README.md"
+
+## name: Alpaca Itinerary v1 Manifest Reference
 
 ## Overview
 

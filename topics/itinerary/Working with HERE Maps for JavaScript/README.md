@@ -1,3 +1,6 @@
+[//]: # "Title: HERE Maps API for JavaScript"
+[//]: # "Weight: 4"
+
 # HERE Maps API for JavaScript
 
 It is possible to use the HERE Maps API for JavaScript.

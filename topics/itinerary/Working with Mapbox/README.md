@@ -1,3 +1,6 @@
+[//]: # "Title: Mapbox JS"
+[//]: # "Weight: 1"
+
 # Mapbox
 
 > Mapbox provides a thoroughly customisable environment for developing
@@ -32,8 +35,8 @@ GeoJSON directly via adding it to your map style as a data source.
 
 **Adding GeoJSON to mapbox-gl JS**
 
-The Mapbox GL JS API can add a full geojson document directly to the map via
-the `addSource` API call.
+The Mapbox GL JS API can add a full geojson document directly to the map via the
+`addSource` API call.
 
 - [map.addSource() API Reference](https://docs.mapbox.com/mapbox-gl-js/api/map/#map#addsource)
 
@@ -61,8 +64,8 @@ directly as a source.
 }
 ```
 
-Note: You will need to update the above `data` URL with the correct itinerary
-id and accessToken.
+Note: You will need to update the above `data` URL with the correct itinerary id
+and accessToken.
 
 ## Hosted Vector Tiles
 
@@ -101,8 +104,8 @@ directly as a source.
 }
 ```
 
-Note: You will need to update the above `data` URL with the correct itinerary
-id and accessToken.
+Note: You will need to update the above `data` URL with the correct itinerary id
+and accessToken.
 
 ## Styling Data
 
@@ -113,25 +116,27 @@ The above section describes common ways of adding the sources to your mapbox
 style, but you will need to then understand how to select data from the source
 to present the features you desire to show users.
 
-The best place to start is the [Mapbox examples](https://docs.mapbox.com/mapbox-gl-js/example/)
-or by refering to the [Mapbox style specification](https://docs.mapbox.com/mapbox-gl-js/style-spec/).
+The best place to start is the
+[Mapbox examples](https://docs.mapbox.com/mapbox-gl-js/example/) or by refering
+to the
+[Mapbox style specification](https://docs.mapbox.com/mapbox-gl-js/style-spec/).
 
-Once you become familiar with the concepts of styling, you will want to refer
-to **[Working with GeoJSON and Vector Tiles](/topics/itinerary/Working%20with%20GeoJSON%20and%20Vector%20Tiles/README.md)**
+Once you become familiar with the concepts of styling, you will want to refer to
+**[Working with GeoJSON and Vector Tiles](/topics/itinerary/Working%20with%20GeoJSON%20and%20Vector%20Tiles/README.md)**
 to understand what data is available to select and style.
 
 ## Default Alpaca Style
 
 Alpaca also offers a default style that can be used to style mapbox out of the
-box. You can use the default style to quickly leverage the Mapbox API on top
-of an Alpaca map style and data.
+box. You can use the default style to quickly leverage the Mapbox API on top of
+an Alpaca map style and data.
 
 ```
 https://mapping.withalpaca.travel/v1/itinerary/XXX.json?accessToken=YOUR_ACCESS_TOKEN
 ```
 
-You will need to update the itinerary/XXX with your itinerary ID and your
-access Token.
+You will need to update the itinerary/XXX with your itinerary ID and your access
+Token.
 
 ```javascript
 mapboxgl.accessToken = "<your mapbox access token here>";

@@ -1,3 +1,6 @@
+[//]: # "Title: QGIS"
+[//]: # "Weight: 6"
+
 # Viewing Your Itinerary in QGIS
 
 QGIS is a free and open-source geographic information system (GIS) software that
@@ -23,9 +26,11 @@ To add a Vector Tile Connection in QGIS, follow these steps:
 2. Right-click on the Vector Tiles folder and select New Connection.
 
 3. In the Vector Tiles Connection dialogue box, enter a name for your connection
-   (e.g., Alpaca Travel Itinerary).
-   In the URL field, enter the x,y,z URL provided by Alpaca Travel: `https://mapping.withalpaca.travel/v1/itinerary/abc/{z}/{x}/{y}.vector.pbf?scheme=tms&accessToken=YOUR_ACCESS_TOKEN`
-   Replace "itinerary/abc" in the URL with your own itinerary ID, and replace "YOUR_ACCESS_TOKEN" with your access token.
+   (e.g., Alpaca Travel Itinerary). In the URL field, enter the x,y,z URL
+   provided by Alpaca Travel:
+   `https://mapping.withalpaca.travel/v1/itinerary/abc/{z}/{x}/{y}.vector.pbf?scheme=tms&accessToken=YOUR_ACCESS_TOKEN`
+   Replace "itinerary/abc" in the URL with your own itinerary ID, and replace
+   "YOUR_ACCESS_TOKEN" with your access token.
 
 4. Click OK to save your new connection.
 

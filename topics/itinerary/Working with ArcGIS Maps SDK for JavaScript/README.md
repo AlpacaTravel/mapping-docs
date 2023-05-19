@@ -1,3 +1,6 @@
+[//]: # "Title: ArcGIS Maps SDK for JavaScript"
+[//]: # "Weight: 5"
+
 # ArcGIS Maps SDK for JavaScript
 
 Alpaca Travel mapping data for Itineraries can be presented using the ESRI
@@ -28,6 +31,5 @@ See More:
 
 ## Vector Tile Layer
 
-ArcGIS uses a JSON file describing your vector tiles. The format
-is different to the tilejson format and we will add support for
-this in the future.
+ArcGIS uses a JSON file describing your vector tiles. The format is different to
+the tilejson format and we will add support for this in the future.

@@ -1,3 +1,6 @@
+[//]: # "Title: Scalable Vector Graphics"
+[//]: # "Weight: 7"
+
 # Working with SVG
 
 <img src="./svg-basic-styled.png" alt="Basic SVG Example" />
@@ -80,8 +83,8 @@ tolerance (default is `0.85`). You can splify a simplify operation via
 `lineStringProcessing=simplify`, or by passing the tolerance via
 `lineStringProcessing=simplify_0.01`.
 
-Bezier Spline is achieved by `lineStringProcessing=bezierSpline` and can also
-be customised via the resolution (default `10000`) controlling the time in
+Bezier Spline is achieved by `lineStringProcessing=bezierSpline` and can also be
+customised via the resolution (default `10000`) controlling the time in
 milliseconds between points and sharpness (default `0.85`) controlling how curvy
 the path should be between splines. You can control the resolution and sharpness
 through appending them to the string;
@@ -123,8 +126,8 @@ You can also use an interactive map to identify the ID to include:
 ### Merging SVG
 
 You can combine SVG data together into a single request leveraging the `merge`
-query parameter. Provide multiple resources in the query param in order to
-draw those SVG's into the same document body.
+query parameter. Provide multiple resources in the query param in order to draw
+those SVG's into the same document body.
 
 This can assist designers position the itinerary against other geographic
 features.

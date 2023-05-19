@@ -1,3 +1,6 @@
+[//]: # "Title: Leaflet"
+[//]: # "Weight: 3"
+
 # Leaflet
 
 ## The GeoJSON layer
@@ -71,6 +74,7 @@ The Vector Tiles are located at the following URL:
 https://mapping.withalpaca.travel/v1/itinerary/abc/{z}/{x}/{y}.vector.pbf?scheme=tms&accessToken=YOUR_ACCESS_TOKEN
 ```
 
-Replace "itinerary/abc" in the URL with your own itinerary ID, and replace "YOUR_ACCESS_TOKEN" with your access token.
+Replace "itinerary/abc" in the URL with your own itinerary ID, and replace
+"YOUR_ACCESS_TOKEN" with your access token.
 
 See [Leadlet.VectorGrid](https://github.com/Leaflet/Leaflet.VectorGrid).

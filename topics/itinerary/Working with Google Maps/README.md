@@ -1,3 +1,6 @@
+[//]: # "Title: Google Maps"
+[//]: # "Weight: 2"
+
 # Google Maps
 
 > Google Maps provide the Maps Platform for developers to create features from
@@ -12,8 +15,8 @@ Alpaca provides two main methods for developers to consider integrating their
 data on to the Google Maps platform.
 
 The `GeoJSON` data format provides a way to easily add data from the Alpaca
-platform to maps. The data contains locations as well as directions that can
-be used directly on the maps.
+platform to maps. The data contains locations as well as directions that can be
+used directly on the maps.
 
 Alternatively, you can leverage the `GraphQL API` that provides access to the
 content on the Alpaca platform, including itinerary information and geometry
@@ -45,5 +48,5 @@ map.data.loadGeoJson(
 );
 ```
 
-Note: You will need to update the above URL with the correct itinerary
-id and accessToken.
+Note: You will need to update the above URL with the correct itinerary id and
+accessToken.

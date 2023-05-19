@@ -1,3 +1,7 @@
+[//]: # "Title: Mapping"
+[//]: # "Forward: true"
+[//]: # "Weight: 2"
+
 <div align="center">
   <img alt="Developer Documentation" src="https://developer.alpacamaps.com/_media/logo.svg" height="75" width="75" />
 </div>
@@ -21,17 +25,17 @@ Alpaca provides an interactive client that you can access for resources hosted
 on the platform. This can be used to interact with features and identify what
 mapping data is available.
 
-- **[Mapping Service](https://mapping.withalpaca.travel/)**
-  Interact with mapping resources (Requires API Key)
+- **[Mapping Service](https://mapping.withalpaca.travel/)** Interact with
+  mapping resources (Requires API Key)
 
 ## Itinerary
 
 Itineraries refers to the broad category of content published on the platform,
 including trails, trips and lists.
 
-- **[Itinerary Manifest File](/reference/itinerary/Manifest/README.md)**
-  Access key information such as datasource URL's and viewport camera
-  configurations for displaying maps.
+- **[Itinerary Manifest File](/reference/itinerary/Manifest/README.md)** Access
+  key information such as datasource URL's and viewport camera configurations
+  for displaying maps.
 - **[Working with GeoJSON and Vector Tiles](/topics/itinerary/Working%20with%20GeoJSON%20and%20Vector%20Tiles/README.md)**
   An overview to getting started with GeoJSON and Vector Tiles when working with
   itineraries.
@@ -45,10 +49,10 @@ The following references can be used to get started with displaying itinerary
 data for various mapping platforms. Alpaca Travel makes itinerary data available
 for use in a wide range of mapping platforms.
 
-- **[Mapbox](/topics/itinerary/Working%20with%20Mapbox/)**
-  Building thoroughly customisable maps presenting itineraries using Mapbox
-- **[Leaflet](/topics/itinerary/Working%20with%20Leaflet/)**
-  Adding itinerary information to Leaflet
+- **[Mapbox](/topics/itinerary/Working%20with%20Mapbox/)** Building thoroughly
+  customisable maps presenting itineraries using Mapbox
+- **[Leaflet](/topics/itinerary/Working%20with%20Leaflet/)** Adding itinerary
+  information to Leaflet
 - **[Google Maps Platform](/topics/itinerary/Working%20with%20Google%20Maps/)**
   Integrating with Google Maps Platform
 - **[HERE.com Maps for JavaScript](/topics/itinerary/Working%20with%20HERE%20Maps%20for%20JavaScript/)**
@@ -56,11 +60,11 @@ for use in a wide range of mapping platforms.
 - **[ARCGis Maps SDK for JavaScript](/topics/itinerary/Working%20with%20ArcGIS%20Maps%20SDK%20for%20JavaScript/)**
   Working with ARCGis Maps SDK for JavaScript to add a GeoJSONLayer to your
   ARCGis Maps application
-- **[QGIS](/topics/itinerary/Working%20with%20QGIS/)**
-  Easily view your itinerary data in QGIS by adding a Vector Tile Connection
-- **[SVG Data](/topics/itinerary/Working%20with%20SVG/)**
-  Working with SVG exports of itineraries such as stylising curved and
-  generalised representations of itineraries.
+- **[QGIS](/topics/itinerary/Working%20with%20QGIS/)** Easily view your
+  itinerary data in QGIS by adding a Vector Tile Connection
+- **[SVG Data](/topics/itinerary/Working%20with%20SVG/)** Working with SVG
+  exports of itineraries such as stylising curved and generalised
+  representations of itineraries.
 
 ## Additional Hosted Datasets
 
@@ -77,9 +81,8 @@ data, or loading data from the natural world administrative data.
 - **[Australian Bureau of Statistics](/sets/Australian%20Bureau%20of%20Statistics/)**
   Accessing and presenting map information from the ABS dataset, including
   locality/suburbs, postcodes, tourism regions or electoral regions.
-- **[Natural Earth](/sets/Natural%20Earth/)**
-  Present timezones, countries, regions and other administrative information
-  from the natural earth dataset.
+- **[Natural Earth](/sets/Natural%20Earth/)** Present timezones, countries,
+  regions and other administrative information from the natural earth dataset.
 
 ## API Key
 
@@ -101,7 +104,8 @@ Outside of the data embedded within your itinerary mapping data sets, you can
 use the `feature.properties.id` for each feature to obtain additional
 information from the Alpaca Travel GraphQL API.
 
-See the the [Alpaca Travel GraphQL API documentation](https://github.com/AlpacaTravel/graphql-docs) for more information on how to request information from the API.
-This can also be done using the browser 'fetch' function or alternatively using
-a hosted SDK that can be included in your browser to make fetching requests
-easier.
+See the the
+[Alpaca Travel GraphQL API documentation](https://github.com/AlpacaTravel/graphql-docs)
+for more information on how to request information from the API. This can also
+be done using the browser 'fetch' function or alternatively using a hosted SDK
+that can be included in your browser to make fetching requests easier.

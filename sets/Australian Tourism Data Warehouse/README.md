@@ -1,11 +1,13 @@
+[//]: # "Keywords: atdw"
+
 # Australian Tourism Data Warehouse (ATDW)
 
 ## Vector Tile Hosting
 
 Alpaca Travel offers a vector tile hosting service that includes a regularly
 updated database of ATDW products across Australia. This can be used by users
-with ATDW Distributor agreements direct with ATDW in order to display a map
-of all the ATDW products available in their region.
+with ATDW Distributor agreements direct with ATDW in order to display a map of
+all the ATDW products available in their region.
 
 <img alt="ATDW Mapping Data" src="./melbourne.png" width="805" height="599" />
 
@@ -147,9 +149,9 @@ query {
 }
 ```
 
-If you are building a simple interactive map you can also review using the
-fetch SDK we offer which can be included with a unpkg script tag and can make
-calls to the API.
+If you are building a simple interactive map you can also review using the fetch
+SDK we offer which can be included with a unpkg script tag and can make calls to
+the API.
 
 ```html
 <!DOCTYPE html>

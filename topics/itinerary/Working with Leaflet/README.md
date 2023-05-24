@@ -1,5 +1,7 @@
 [//]: # "Title: Leaflet"
 [//]: # "Weight: 3"
+[//]: # "Layout: 1-col"
+[//]: # "TOC: false"
 
 # Leaflet
 

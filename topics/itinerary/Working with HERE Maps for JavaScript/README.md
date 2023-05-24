@@ -1,5 +1,7 @@
 [//]: # "Title: HERE Maps API for JavaScript"
 [//]: # "Weight: 4"
+[//]: # "Layout: 1-col"
+[//]: # "TOC: false"
 
 # HERE Maps API for JavaScript
 

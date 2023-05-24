@@ -1,14 +1,23 @@
 [//]: # "Title: GeoJSON and Vector Tiles"
 [//]: # "Weight: 4"
+[//]: # "Keywords: geojson, mbtiles"
 
 # Working with GeoJSON and Vector Tiles
 
 Alpaca provides a GeoJSON version of the mapping data for developers to access
 geometry.
 
+<aside class="info">
+  GeoJSON and Vector Tiles are created after content is published. These formats
+  are recommended for presenting content authored on the Itinerary Editor 
+  opposed to interactive planning tools. In those use-cases, we recommend 
+  requesting map information via the API, which will be kept up to date 
+  throughout all mutations.
+</aside>
+
 ## About GeoJSON
 
-> GeoJSON is a format for encoding a bariety of geographic data structures
+> GeoJSON is a format for encoding a variety of geographic data structures
 
 GeoJSON supports a wide range of geometry types to represent the features of an
 itinerary, including `Point` and `LineString`. The objects include additional

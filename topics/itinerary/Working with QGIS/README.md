@@ -1,5 +1,8 @@
 [//]: # "Title: QGIS"
 [//]: # "Weight: 6"
+[//]: # "Layout: 1-col"
+[//]: # "TOC: false"
+[//]: # "Keywords: QGIS,GIS"
 
 # Viewing Your Itinerary in QGIS
 

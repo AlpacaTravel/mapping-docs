@@ -1,5 +1,7 @@
 [//]: # "Title: ArcGIS Maps SDK for JavaScript"
 [//]: # "Weight: 5"
+[//]: # "Layout: 1-col"
+[//]: # "TOC: false"
 
 # ArcGIS Maps SDK for JavaScript
 

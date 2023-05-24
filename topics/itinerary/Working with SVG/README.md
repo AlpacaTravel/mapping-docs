@@ -1,5 +1,7 @@
 [//]: # "Title: Scalable Vector Graphics"
 [//]: # "Weight: 7"
+[//]: # "Layout: 1-col"
+[//]: # "TOC: false"
 
 # Working with SVG
 

@@ -1,5 +1,6 @@
 [//]: # "Title: Mapbox JS"
 [//]: # "Weight: 1"
+[//]: # "Layout: 1-col"
 
 # Mapbox
 

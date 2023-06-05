@@ -138,6 +138,11 @@ You can combine SVG data together into a single request leveraging the `merge`
 query parameter. Provide multiple resources in the query param in order to draw
 those SVG's into the same document body.
 
+<iframe src="https://codesandbox.io/embed/svg-nz-roadtrip-op8jyc?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:700px; border:0; border-radius: 4px; overflow:hidden;"
+     title="SVG-NZ-roadtrip"
+   ></iframe>
+
 This can assist designers position the itinerary against other geographic
 features.
 

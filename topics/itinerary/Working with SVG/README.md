@@ -5,10 +5,12 @@
 
 # Working with SVG
 
-<img src="./svg-basic-styled.png" alt="Basic SVG Example" />
+<img src="./svg-basic-styled.png" width="510" height="351" alt="Basic SVG Example" />
 
 > Scalable Vector Graphics can be used in mapping to provide vector
-> representations of itineraries without requiring an interactive mapping SDK
+> representations of itineraries without requiring an interactive mapping SDK.
+> Alpaca.tech provides an output format of SVG data, allowing you to style and
+> work with vector graphic representations of content you produce.
 
 Alpaca provides resources for developers and designers to design a SVG
 representation of an itinerary.
@@ -56,6 +58,11 @@ that may be included for certain features.
 | data-mode         | The mode of transport for the directions                                                                         |
 
 ### Customising SVG's
+
+<iframe src="https://codesandbox.io/embed/svg-walk-trwg32?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:700px; border:0; border-radius: 4px; overflow:hidden;"
+     title="SVG-walk"
+   ></iframe>
 
 Along with your request, you can include the following query parameters to
 change the SVG export.

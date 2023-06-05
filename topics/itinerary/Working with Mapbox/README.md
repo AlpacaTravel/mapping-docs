@@ -7,6 +7,13 @@
 > Mapbox provides a thoroughly customisable environment for developing
 > interactive maps
 
+<iframe src="https://www.alpaca.travel/api/examples/mapbox-gl-js/display-itinerary-on-a-map/index.html"
+  style="width:100%; height:400px; border:0; border-radius: 4px; overflow:hidden;"
+  ></iframe>
+
+<em>Example of loading an itinerary into Mapbox GL.
+[View Source code](https://www.alpaca.travel/reference/article/display-an-itinerary-on-a-map).</em>
+
 Mapbox provides a number of products to assist developers work with interactive
 maps. Various mapping clients are provided to cover `web` and `mobile`
 development environments.

@@ -6,8 +6,27 @@
 
 # Mapping
 
-Alpaca supports a number of mapping technologies and approaches for you to
-present your interactive content.
+> Alpaca supports a number of mapping technologies and approaches for you to
+> present your interactive content. Work with native formats to immediately
+> present your content.
+
+Alpaca provides an environment for developers to work with various mapping
+environments to display their content. The alpaca.tech supports a number of
+mapping tools, including [Mapbox](/topics/itinerary/Working%20with%20Mapbox/),
+[Leaflet](/topics/itinerary/Working%20with%20Leaflet/),
+[Google Maps](/topics/itinerary/Working%20with%20Google%20Maps/),
+[ArcGIS](/topics/itinerary/Working%20with%20ArcGIS%20Maps%20SDK%20for%20JavaScript/)
+and [more](/topics/itinerary/).
+
+<iframe src="https://www.alpaca.travel/api/examples/mapbox-gl-js/animate-camera-along-a-trail/index.html"
+  style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+/></iframe>
+
+<em>
+  Using Mapbox GL environment natively, allowing developers to create their
+  own interactions and presentation of content.
+  [View source](https://www.alpaca.travel/reference/article/animate-camera-along-a-trail).
+</em>
 
 ## Endpoint URLs
 

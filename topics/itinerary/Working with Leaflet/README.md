@@ -5,6 +5,10 @@
 
 # Leaflet
 
+<iframe src="https://codesandbox.io/embed/strange-visvesvaraya-ui17cf?fontsize=14&hidenavigation=1&theme=dark"
+  style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+></iframe>
+
 ## The GeoJSON layer
 
 Alpaca Travel Itineraries can be added to leaflet maps through using a

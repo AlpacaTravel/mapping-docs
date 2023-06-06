@@ -5,7 +5,9 @@
 
 # Working with SVG
 
-<img src="./svg-basic-styled.png" width="510" height="351" alt="Basic SVG Example" />
+<iframe src="https://codesandbox.io/embed/svg-nz-d3-stbwi1?fontsize=14&hidenavigation=1&theme=dark&module=%2Fsrc%2FMap.js"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+   ></iframe>
 
 > Scalable Vector Graphics can be used in mapping to provide vector
 > representations of itineraries without requiring an interactive mapping SDK.
@@ -138,8 +140,8 @@ You can combine SVG data together into a single request leveraging the `merge`
 query parameter. Provide multiple resources in the query param in order to draw
 those SVG's into the same document body.
 
-<iframe src="https://codesandbox.io/embed/svg-nz-roadtrip-op8jyc?fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:700px; border:0; border-radius: 4px; overflow:hidden;"
+<iframe src="https://codesandbox.io/embed/svg-nz-roadtrip-op8jyc?fontsize=14&hidenavigation=1&module=%2Fsrc%2FMap.js&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
      title="SVG-NZ-roadtrip"
    ></iframe>
 

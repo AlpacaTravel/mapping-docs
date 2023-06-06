@@ -16,7 +16,8 @@ mapping tools, including [Mapbox](/topics/itinerary/Working%20with%20Mapbox/),
 [Leaflet](/topics/itinerary/Working%20with%20Leaflet/),
 [Google Maps](/topics/itinerary/Working%20with%20Google%20Maps/),
 [ArcGIS](/topics/itinerary/Working%20with%20ArcGIS%20Maps%20SDK%20for%20JavaScript/)
-and [more](/topics/itinerary/).
+and [more](/topics/itinerary/). You can also use
+[SVG files](/topics/itinerary/Working%20with%20SVG/) and D3 visualisations.
 
 <iframe src="https://www.alpaca.travel/api/examples/mapbox-gl-js/animate-camera-along-a-trail/index.html"
   style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"

@@ -1,5 +1,5 @@
 [//]: # "Title: Scalable Vector Graphics"
-[//]: # "Weight: 7"
+[//]: # "Weight: 3"
 [//]: # "Layout: 1-col"
 [//]: # "TOC: false"
 

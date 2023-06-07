@@ -1,8 +1,9 @@
 [//]: # "Keywords: atdw"
+[//]: # "Weight: 1"
 [//]: # "Layout: 1-col"
 [//]: # "toc: false"
 
-# Australian Tourism Data Warehouse (ATDW)
+# Australian Tourism Data Warehouse
 
 ## Vector Tile Hosting
 

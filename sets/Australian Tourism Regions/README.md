@@ -1,3 +1,7 @@
+[//]: # "Weight: 2"
+[//]: # "Layout: 1-col"
+[//]: # "toc: false"
+
 # Australian Tourism Regions
 
 ## Vector Tile Hosting
@@ -7,19 +11,34 @@ current Australian Tourism Regions for presenting on interactive maps. This can
 help build interactive maps that can display to the user various regions and
 sub-regions across Australia.
 
-<img alt="Australian Tourism Regions" src="./map.png" width="803" height="597" />
+<iframe src="https://codesandbox.io/embed/simple-mapbox-tourism-kuo39x?fontsize=14&hidenavigation=1&module=%2Fsrc%2FMap%2FTourismMapLayer.tsx&theme=dark"
+  style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+  title="simple-mapbox-tourism"
+></iframe>
 
 ## Interactive Explorer
 
 Alpaca offers an interactive explorer to review what data is visible within the
 vector dataset.
 
+<img alt="Australian Tourism Regions" src="./map.png" width="803" height="597" />
+
 [Interactive Explorer](https://mapping.withalpaca.travel/set/abs_2021_tourism)
+
+## SVG Data
+
+<iframe src="https://codesandbox.io/embed/svg-tourism-hq4nen?fontsize=14&hidenavigation=1&module=%2Fsrc%2FMap.js&theme=dark"
+  style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+  title="SVG-tourism"
+></iframe>
+
+<em>It is possible to extract the SVG data for each region, using it for
+rendering SVG maps of tourism regions.</em>
 
 ## Feature Specification
 
-Alpaca provides a specification derived from the ABS data set, allowing you
-to target and create interactions with data.
+Alpaca provides a specification derived from the ABS data set, allowing you to
+target and create interactions with data.
 
 _Example of Feature Properties_
 

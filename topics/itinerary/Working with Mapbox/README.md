@@ -5,7 +5,8 @@
 # Mapbox
 
 > Mapbox provides a thoroughly customisable environment for developing
-> interactive maps
+> interactive maps. Data is provided in native formats to style into your mapbox
+> maps.
 
 <iframe src="https://www.alpaca.travel/api/examples/mapbox-gl-js/custom-map-styles/index.html"
   style="width:100%; height:400px; border:0; border-radius: 4px; overflow:hidden;"

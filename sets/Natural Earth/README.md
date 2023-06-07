@@ -1,3 +1,7 @@
+[//]: # "Weight: 4"
+[//]: # "Layout: 1-col"
+[//]: # "toc: false"
+
 # Natural Earth
 
 ## Vector Tile Hosting
@@ -7,8 +11,8 @@ to create additional interactivity with mapping based on cultural data.
 
 <img alt="Natural Earth Cultural Data" src="./map.png" width="801" height="598" />
 
-Natural Earth provides a number of cultral datasets that can be used for
-various mapping needs. These are broken out to specific vector layers
+Natural Earth provides a number of cultral datasets that can be used for various
+mapping needs. These are broken out to specific vector layers
 
 This includes the following map data:
 

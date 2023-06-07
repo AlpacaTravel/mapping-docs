@@ -1,5 +1,5 @@
 [//]: # "Title: Google Maps"
-[//]: # "Weight: 2"
+[//]: # "Weight: 4"
 [//]: # "Layout: 1-col"
 [//]: # "TOC: false"
 

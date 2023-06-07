@@ -1,5 +1,5 @@
 [//]: # "Title: QGIS"
-[//]: # "Weight: 6"
+[//]: # "Weight: 7"
 [//]: # "Layout: 1-col"
 [//]: # "TOC: false"
 [//]: # "Keywords: QGIS,GIS"

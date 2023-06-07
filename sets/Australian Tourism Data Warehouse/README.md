@@ -1,4 +1,6 @@
 [//]: # "Keywords: atdw"
+[//]: # "Layout: 1-col"
+[//]: # "toc: false"
 
 # Australian Tourism Data Warehouse (ATDW)
 
@@ -9,7 +11,13 @@ updated database of ATDW products across Australia. This can be used by users
 with ATDW Distributor agreements direct with ATDW in order to display a map of
 all the ATDW products available in their region.
 
-<img alt="ATDW Mapping Data" src="./melbourne.png" width="805" height="599" />
+> Alpaca travel can help build and provide map tiles in order to create better
+> exploration around your content.
+
+<iframe src="https://codesandbox.io/embed/simple-mapbox-atdw-map-zg4r0q?fontsize=14&hidenavigation=1&theme=dark&module=%2Fsrc%2FMap%2FAtdwMapLayer.tsx"
+  style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+  title="simple-mapbox-atdw-map"
+></iframe>
 
 Before you get started, you must add your ATDW API Key to the platform by
 logging in to your account and adding the ATDW integration.

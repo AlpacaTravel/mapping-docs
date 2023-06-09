@@ -17,4 +17,16 @@ dropping specific points and choosing specific routes along the way.
 
 <img src="./editor-route.png" alt="Easily plot walks" />
 
+<aside class="note">
+  Content teams can use the Alpaca Itinerary Editor in order to plot-out the 
+  paths of content exactly how they want, with images, text and can link 
+  to place information.
+</aside>
+
 <img src="./fine-route-controls.png" alt="Be specific with paths" />
+
+<aside class="note">
+  Routing can be controlled to be as specific as you want, with the ability to
+  choose the exact path you want to take. It isn't about trying to go the 
+  fastest way, it's about choosing exactly the path to take for the experience.
+</aside>

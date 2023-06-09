@@ -7,8 +7,8 @@
 # Mapping
 
 > Alpaca supports a number of mapping technologies and approaches for you to
-> present your interactive content. Work with native formats to immediately
-> present your content.
+> present your interactive content produced on the Alpaca platform. Work with
+> native formats to present your content exactly the way you want to.
 
 Alpaca provides an environment for developers to work with various mapping
 environments to display their content. The alpaca.tech supports a number of
